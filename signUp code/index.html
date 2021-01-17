@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
+    integrity="sha256-ECB9bbROLGm8wOoEbHcHRxlHgzGqYpDtNTgDTyDz0wg=" crossorigin="anonymous" /> -->
+    <title>From Data</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/main.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <h2>SIGNUP FORM</h2>
+        <form action="" role="form" onsubmit="signUp(event);">
+            <div class="form-group">
+                <input type="text" name="fname" id="fname"  placeholder="First Name" required>
+            </div>
+
+
+            <div class="form-group">
+                <input type="text" name="lname" id="lname"  placeholder="last Name" required>
+            </div>
+
+
+            <div class="form-group">
+                <input type="email" name="email" id="email"  placeholder="Email Address" required>
+            </div>
+
+
+            <div class="form-group">
+                <input type="number" name="pnumber" id="pnumber"  placeholder="Phone Number" required>
+            </div>
+
+
+            <div class="form-group">
+                <input type="number" name="pcode" id="pcode"  placeholder="Post Code" required>
+            </div>
+
+
+            <div class="form-group">
+                <input type="password" name="pwd" id="pwd"  placeholder="Password" required>
+            </div>
+            
+           
+            <div class="form-group">
+                <button type="submit">signUp</button>
+            </div>
+
+            
+        </form>
+        <h2>MY INFO</h2>
+        <div id="output">
+        </div>
+    </div>
+</body>
+</html>
